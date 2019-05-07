@@ -1,6 +1,9 @@
 language: node_js
 node_js:
   - "10"
+env:
+  - NODE_ENV: test
+  - BASE_API_URL: https://localhost:8080
 install:
   - npm install
 script:
