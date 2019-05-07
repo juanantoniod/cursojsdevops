@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     working_directory: ~/cursojsdevops
-    doker:
+    docker:
       - image: circleci/node:10
     steps:
       - checkout
